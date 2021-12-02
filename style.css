@@ -84,7 +84,7 @@ body {
     padding: 100%;
   }
 } */
-.right{
+/* .right{
   float: left;
   margin-left: 0;
 }
@@ -92,3 +92,7 @@ body {
   float: right;
   margin: 0;
 }
+.right{
+  float: left;
+  margin-left: 0;
+} */
