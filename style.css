@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  
 }
 
 * {
@@ -23,7 +24,7 @@ body {
   }
 } */
 
-.grid-example {
+/* .grid-example { 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -34,8 +35,9 @@ body {
 }
 
 .grid-example div {
-  margin-top: 20px;
-}
+  /* 00margin-top: 20px; */
+  /* flex: 33%
+
 
 
 /* .grid-example div {
@@ -45,7 +47,7 @@ body {
   margin: 0 auto;
 } */
 
-@media(max-width:900px) {
+/* @media(max-width:900px) { 
   .grid-example {
       display: flex;
       flex-direction: row;
@@ -60,4 +62,33 @@ body {
       flex-wrap: wrap;
       
   }
+}
+/*  */
+/* .grid-example{
+  display: flex;
+  flex: wrap;
+}
+.grid-example > div{
+  padding: .5rem;
+}
+@media (max-width: 565px){
+  .grid-example div{
+    padding: 33.3333%;
+}
+@media (max-width: 780px){
+  .grid-example div{
+    padding: 50%;
+}
+@media (max-width: 900px) {
+  .grid-example div{
+    padding: 100%;
+  }
+} */
+.right{
+  float: left;
+  margin-left: 0;
+}
+.left{
+  float: right;
+  margin: 0;
 }
